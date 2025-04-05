@@ -306,3 +306,31 @@ body {
 header p.chewy {
     font-size: 20px;
 }
+/* Pie de página */
+.footer-social {
+    background-color: #ff99cc;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-media-links a {
+    font-size: 16px;
+    color: #5a3e36;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-links a:hover {
+    color: #ff3385;
+}
+
+.instagram-icon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
