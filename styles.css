@@ -107,6 +107,7 @@ header {
 }
 
 .cookie-description {
+    font-family: 'Arial', sans-serif; /* Esto aplica la fuente tradicional */    
     font-size: 16px;
     color: #5a3e36;
     margin-top: 10px;
@@ -200,7 +201,13 @@ button:hover {
     .logo {
         font-size: 120px; /* Aumenté el tamaño del logo */
     }
-
+    .header-img {
+        max-height: 200px;  /* Ajusté la altura para que se vea bien en el móvil */
+    }
+    .cookie-description {
+        font-family: 'Arial', sans-serif; /* Fuente tradicional también en móvil */
+        font-size: 14px;
+    }
     .carousel {
         width: 100%;
         margin: 0 auto;
@@ -239,7 +246,7 @@ button:hover {
 
     .contact-img {
         width: 180px;
-        height: 100px; /* Ajusté el tamaño de la imagen en móviles */
+        height: auto; /* Ajusté el tamaño de la imagen en móviles */
     }
 }
 
@@ -256,7 +263,7 @@ button:hover {
 
     .cookie-img {
         width: 130px;
-        height: 90px;
+        height: 130px;
     }
 }
 
