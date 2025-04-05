@@ -35,31 +35,30 @@
                     <h3 class="cookie-name">CookiBiscoff</h3>
                     <p class="cookie-description">Croccante fuori, speziata e burrosa dentro: con crema Lotus e crumble Biscoff.</p>
                 </div>
-		<div class="carousel-item">
+                <div class="carousel-item">
                     <img src="cookie2.jpg" alt="RaffaCooki" class="cookie-img">
                     <h3 class="cookie-name">RaffaCooki</h3>
-                    <p class="cookie-description">Una cookie avvolgente al cocco, con Raffaello nel centro: croccante fuori,cremosa 			dentro.</p>
+                    <p class="cookie-description">Una cookie avvolgente al cocco, con Raffaello nel centro: croccante fuori,cremosa dentro.</p>
                 </div>
-		<div class="carousel-item">
+                <div class="carousel-item">
                     <img src="cookie3.jpg" alt="CookiTwix" class="cookie-img">
                     <h3 class="cookie-name">CookiTwix</h3>
-                    <p class="cookie-description">Caramello Salato, Twix & Pretzel
-		Il contrasto perfetto tra dolce e salato: caramello filante, pezzetti di Twix e pretzel croccanti.</p>
-		</div>
-		<div class="carousel-item">
+                    <p class="cookie-description">Caramello Salato, Twix & Pretzel. Il contrasto perfetto tra dolce e salato.</p>
+                </div>
+                <div class="carousel-item">
                     <img src="cookie4.jpg" alt="MarshCooki" class="cookie-img">
                     <h3 class="cookie-name">MarshCooki</h3>
-                    <p class="cookie-description">Morbida e filante con marshmallow fuso e cioccolato: una coccola da forno che scalda il 		cuore.</p>
+                    <p class="cookie-description">Morbida e filante con marshmallow fuso e cioccolato.</p>
                 </div>
-		<div class="carousel-item">
+                <div class="carousel-item">
                     <img src="cookie5.jpg" alt="BerryCooki" class="cookie-img">
                     <h3 class="cookie-name">BerryCooki</h3>
-                    <p class="cookie-description">Fresca e fruttata con frutti rossi, cioccolato bianco vellutato e granella di pistacchio 		per un tocco unico.</p>
+                    <p class="cookie-description">Fresca e fruttata con frutti rossi, cioccolato bianco e granella di pistacchio.</p>
                 </div>
                 <div class="carousel-item">
                     <img src="cookie6.jpg" alt="KinderCooki" class="cookie-img">
                     <h3 class="cookie-name">KinderCooki</h3>
-                    <p class="cookie-description">Il gusto iconico del Kinder in una cookie: dolce, cremosa e irresistibile per grandi e      		piccini.</p>
+                    <p class="cookie-description">Il gusto iconico del Kinder in una cookie: dolce, cremosa e irresistibile.</p>
                 </div>
                 <div class="carousel-item">
                     <img src="cookie7.jpg" alt="NuteCooki" class="cookie-img">
@@ -69,7 +68,7 @@
                 <div class="carousel-item">
                     <img src="cookie8.jpg" alt="CookiRocher" class="cookie-img">
                     <h3 class="cookie-name">CookiRocher</h3>
-                    <p class="cookie-description">Ricca e lussuosa, con nocciole tostate, cioccolato fondente e un cuore cremoso tipo 			Ferrero Rocher.</p>
+                    <p class="cookie-description">Ricca e lussuosa, con nocciole tostate, cioccolato fondente e un cuore cremoso tipo Ferrero Rocher.</p>
                 </div>
             </div>
             <button class="carousel-button right" onclick="changeImage(1)">
@@ -81,21 +80,15 @@
     <section id="contact">
         <h2>Contattami</h2>
         <div class="contact-container">
-            <form action="mailto:flordario1994@gmail.com" method="post" enctype="text/plain">
+            <form action="https://wa.me/541161781173" method="get" target="_blank">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
 
                 <label for="message">Messaggio:</label>
                 <textarea id="message" name="message" required></textarea>
 
                 <button type="submit">Invia</button>
             </form>
-            <div class="contact-image">
-                <img src="your-photo-with-cookie.jpg" alt="Foto con cookie" class="contact-img">
-            </div>
         </div>
     </section>
 
@@ -109,6 +102,7 @@
             images.forEach((img, i) => {
                 img.style.display = 'none';
                 descriptions[i].style.display = 'none';
+                names[i].style.display = 'none'; // Ocultar los nombres de las cookies
             });
 
             images[index].style.display = 'block';

@@ -11,7 +11,7 @@ body {
 
 /* Estilo para el logo */
 .logo {
-    font-size: 80px; /* Aumento el tamaño del logo */
+    font-size: 80px;
     font-weight: bold;
     color: #5a3e36;
     margin: 0;
@@ -22,7 +22,7 @@ body {
 
 /* Logo con fondo rosa brillante */
 .logo-img {
-    max-width: 30%; /* Se ajusta al 100% del contenedor */
+    max-width: 30%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -101,6 +101,11 @@ header {
     margin-top: 10px;
 }
 
+/* Mostrar el nombre cuando la cookie está seleccionada */
+.carousel-item.selected .cookie-name {
+    display: block;
+}
+
 .cookie-description {
     font-size: 16px;
     color: #5a3e36;
@@ -126,11 +131,11 @@ header {
 }
 
 .left {
-    left: -40px; /* Ajusta para que no tape la imagen */
+    left: -40px;
 }
 
 .right {
-    right: -40px; /* Ajusta para que no tape la imagen */
+    right: -40px;
 }
 
 .cookie-arrow {
@@ -192,29 +197,29 @@ button:hover {
 /* Medias Queries para dispositivos móviles */
 @media (max-width: 768px) {
     .logo {
-        font-size: 60px; /* Reduce el tamaño del logo */
+        font-size: 60px;
     }
 
     .carousel {
-        width: 90%; /* Aumenta el tamaño del carrusel en pantallas pequeñas */
+        width: 90%;
     }
 
     .carousel-item {
-        width: 80%; /* Asegura que las imágenes no se vean demasiado grandes */
+        width: 80%;
     }
 
     .cookie-img {
-        width: 200px; /* Ajusta el tamaño de las cookies */
+        width: 200px;
         height: 200px;
     }
 
     .carousel-button {
-        padding: 8px;
-        font-size: 24px; /* Reducción de tamaño de las flechas */
+        padding: 6px;
+        font-size: 20px;
     }
 
     .contact-container {
-        flex-direction: column; /* Cambia la dirección del formulario */
+        flex-direction: column;
     }
 
     .contact-image {
@@ -222,11 +227,10 @@ button:hover {
     }
 
     .contact-img {
-        width: 200px; /* Ajusta el tamaño de la imagen de contacto */
+        width: 200px;
         height: 200px;
     }
 
-    /* Ajustes para las flechas del carrusel */
     .left, .right {
         left: 0;
         right: 0;
@@ -238,11 +242,16 @@ button:hover {
 /* Medias Queries para dispositivos extra pequeños */
 @media (max-width: 480px) {
     .logo {
-        font-size: 50px; /* Reducir aún más el tamaño del logo */
+        font-size: 50px;
     }
 
     .carousel-item {
-        width: 90%; /* Ajuste del carrusel */
+        width: 90%;
+    }
+
+    .carousel-button {
+        font-size: 16px;
+        padding: 5px;
     }
 
     .cookie-img {
@@ -251,10 +260,10 @@ button:hover {
     }
 
     .cookie-name {
-        font-size: 16px; /* Reducir el tamaño del nombre */
+        font-size: 16px;
     }
 
     .cookie-description {
-        font-size: 14px; /* Reducir el tamaño de la descripción */
+        font-size: 14px;
     }
 }
