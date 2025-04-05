@@ -198,7 +198,7 @@ button:hover {
 /* Medias Queries para dispositivos móviles */
 @media (max-width: 768px) {
     .logo {
-        font-size: 80px; /* Aumenté el tamaño del logo */
+        font-size: 120px; /* Aumenté el tamaño del logo */
     }
 
     .carousel {
@@ -246,7 +246,7 @@ button:hover {
 /* Medias Queries para dispositivos extra pequeños */
 @media (max-width: 480px) {
     .logo {
-        font-size: 60px;
+        font-size: 100px;
     }
 
     .carousel-button {
