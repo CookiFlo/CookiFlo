@@ -22,7 +22,7 @@ body {
 
 /* Logo con fondo rosa brillante */
 .logo-img {
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -239,7 +239,7 @@ button:hover {
 
     .contact-img {
         width: 180px;
-        height: 180px; /* Ajusté el tamaño de la imagen en móviles */
+        height: 100px; /* Ajusté el tamaño de la imagen en móviles */
     }
 }
 
@@ -256,6 +256,6 @@ button:hover {
 
     .cookie-img {
         width: 130px;
-        height: 130px;
+        height: 90px;
     }
 }
