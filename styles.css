@@ -12,106 +12,125 @@ body {
 @media (max-width: 768px) {
     /* Logotipo */
     .logo {
-        font-size: 90px; /* Reduce el tamaño del logo */
+        font-size: 80px; /* Reduce aún más el tamaño del logo */
     }
 
     .logo-img {
-        max-width: 250px; /* Reduce el tamaño del logo */
+        max-width: 200px; /* Reduces el tamaño del logo */
+        margin: 0 auto;
     }
 
     /* Encabezado */
     header {
-        padding: 10px;
+        padding: 10px 5px;
+    }
+
+    /* Imagen de encabezado */
+    .header-img {
+        max-height: 200px; /* Reduce la altura de la imagen */
+        width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+        object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
     }
 
     /* Carrusel */
     .carousel {
-        width: 90%; /* Carrusel más pequeño en pantallas pequeñas */
+        width: 90%; /* Carrusel más pequeño */
+        margin: 0 auto;
     }
 
-    .carousel-images {
-        flex-direction: column; /* Las imágenes del carrusel se alinearán verticalmente */
+    .carousel-button {
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px; /* Reduces el tamaño de las flechas */
+        padding: 8px;
     }
 
-    .carousel-item {
-        margin: 10px 0; /* Añade espacio vertical entre las imágenes */
+    /* Mueve las flechas para que no tapen la imagen */
+    .left {
+        left: 5px; /* Mueve las flechas un poco hacia adentro */
+    }
+
+    .right {
+        right: 5px; /* Mueve las flechas un poco hacia adentro */
     }
 
     .cookie-img {
-        width: 200px; /* Reduces el tamaño de las cookies */
+        width: 200px; /* Hace las imágenes del carrusel más pequeñas */
         height: 200px;
     }
 
-    /* Sección de contacto */
+    .cookie-name {
+        font-size: 16px; /* Reduce el tamaño del texto */
+    }
+
+    .cookie-description {
+        font-size: 14px; /* Reduce el tamaño de la descripción */
+    }
+
+    /* Formulario de contacto */
     .contact-container {
-        flex-direction: column; /* Los elementos del formulario y la foto se apilarán en pantallas pequeñas */
+        flex-direction: column; /* Los elementos del formulario y la foto se apilan en pantallas pequeñas */
         align-items: center;
         text-align: center;
     }
 
-    .contact-image {
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .contact-img {
-        width: 200px; /* Reduces el tamaño de la foto */
-    }
-
     form {
-        width: 90%; /* Formulario más pequeño */
-        margin: 0 auto;
+        width: 90%;
     }
 
     input, textarea {
-        width: 100%; /* Los campos de entrada se ajustan al 100% de la pantalla */
+        width: 100%;
     }
 
     button {
-        width: 100%; /* El botón ocupa todo el ancho disponible */
+        width: 100%;
+    }
+
+    .contact-img {
+        width: 200px;
     }
 }
 
-/* Estilos para pantallas aún más pequeñas, como los teléfonos móviles */
+/* Estilos para pantallas muy pequeñas, como los teléfonos móviles */
 @media (max-width: 480px) {
     /* Ajustes de logo */
     .logo {
-        font-size: 70px;
+        font-size: 60px; /* Reduce aún más el tamaño del logo */
     }
 
     .logo-img {
-        max-width: 200px;
+        max-width: 150px; /* Reduce el tamaño del logo aún más */
     }
 
     /* Ajustes para el encabezado */
     header {
-        padding: 10px 5px;
+        padding: 5px;
     }
 
     .header-img {
-        max-height: 150px; /* Reducir la altura de la imagen en dispositivos más pequeños */
+        max-height: 150px; /* Reduce la altura de la imagen aún más */
     }
 
-    /* Carrusel en pantallas muy pequeñas */
+    /* Carrusel en pantallas pequeñas */
     .carousel {
         width: 100%;
     }
 
     .carousel-item {
-        margin: 5px 0;
+        margin: 10px 0;
     }
 
     .cookie-img {
-        width: 150px; /* Tamaño aún más pequeño para la imagen */
+        width: 150px; /* Ajusta las imágenes aún más pequeñas */
         height: 150px;
     }
 
     .cookie-name {
-        font-size: 16px;
+        font-size: 14px; /* Reduce aún más el tamaño del nombre */
     }
 
     .cookie-description {
-        font-size: 14px;
+        font-size: 12px; /* Ajusta el tamaño de la descripción */
     }
 
     /* Formulario de contacto */
