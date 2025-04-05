@@ -12,21 +12,21 @@ body {
 @media (max-width: 768px) {
     /* Logo */
     .logo {
-        font-size: 60px; /* Reduce más el tamaño del logo */
+        font-size: 40px; /* Reduce más el tamaño del logo */
     }
 
     .logo-img {
-        max-width: 180px; /* Hacemos el logo aún más pequeño */
+        max-width: 100px; /* Hacemos el logo aún más pequeño */
         margin: 0 auto;
     }
 
     /* Encabezado */
     header {
-        padding: 10px 5px;
+        padding: 8px 2px;
     }
 
     .header-img {
-        max-height: 180px; /* Reduce la altura del encabezado */
+        max-height: 100px; /* Reduce la altura del encabezado */
         width: 100%;
         object-fit: cover;
     }
@@ -52,7 +52,7 @@ body {
     }
 
     .cookie-img {
-        width: 100%; /* La imagen ocupa todo el contenedor */
+        width: 70%; /* La imagen ocupa todo el contenedor */
         height: auto;
         border-radius: 50%;
         margin: 0 auto;
@@ -71,8 +71,8 @@ body {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        font-size: 20px; /* Reducimos el tamaño de las flechas */
-        padding: 8px;
+        font-size: 8px; /* Reducimos el tamaño de las flechas */
+        padding: 5px;
         background-color: rgba(255, 255, 255, 0.5);
         border: none;
         cursor: pointer;
@@ -80,15 +80,15 @@ body {
     }
 
     .left {
-        left: 10px; /* Acomoda las flechas */
+        left: -20px; /* Acomoda las flechas */
     }
 
     .right {
-        right: 10px;
+        right: -20px;
     }
 
     .cookie-arrow {
-        width: 30px; /* Reducimos el tamaño de las flechas */
+        width: 8px; /* Reducimos el tamaño de las flechas */
         height: auto;
     }
 
@@ -124,16 +124,16 @@ body {
     }
 
     .logo-img {
-        max-width: 150px; /* Hacemos el logo aún más pequeño */
+        max-width: 80px; /* Hacemos el logo aún más pequeño */
     }
 
     /* Encabezado */
     header {
-        padding: 5px;
+        padding: 3px;
     }
 
     .header-img {
-        max-height: 150px;
+        max-height: 80px;
     }
 
     /* Carrusel */
@@ -142,18 +142,18 @@ body {
     }
 
     .cookie-img {
-        width: 100%;
+        width: 70%;
         height: auto;
     }
 
     /* Flechas del carrusel */
     .carousel-button {
-        font-size: 18px; /* Aumentamos un poco el tamaño de las flechas */
-        padding: 6px;
+        font-size: 8px; /* Aumentamos un poco el tamaño de las flechas */
+        padding: 5px;
     }
 
     .cookie-arrow {
-        width: 25px; /* Ajuste en el tamaño de la flecha */
+        width: 10px; /* Ajuste en el tamaño de la flecha */
     }
 
     /* Formulario de contacto */
@@ -168,7 +168,7 @@ body {
 
 /* Estilo para el logo */
 .logo {
-    font-size: 100px; /* Aumento el tamaño del logo */
+    font-size: 80px; /* Aumento el tamaño del logo */
     font-weight: bold;
     color: #5a3e36;
     margin: 0;
