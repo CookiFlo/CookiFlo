@@ -12,21 +12,26 @@ body {
 @media (max-width: 768px) {
     /* Logo */
     .logo {
-        font-size: 40px; /* Reduce más el tamaño del logo */
+        font-size: 60px; /* Reduce más el tamaño del logo */
     }
 
     .logo-img {
-        max-width: 100px; /* Hacemos el logo aún más pequeño */
+        max-width: 180px; /* Hacemos el logo aún más pequeño */
         margin: 0 auto;
+        display: block;
+        background-color: #ff99cc; /* Asegura que el fondo rosa no sobresalga */
+        padding: 10px; /* Controlamos el padding */
+        border-radius: 10px; /* Aseguramos que las esquinas estén redondeadas */
+        box-sizing: border-box; /* Para evitar el desbordamiento */
     }
 
     /* Encabezado */
     header {
-        padding: 8px 2px;
+        padding: 10px 5px;
     }
 
     .header-img {
-        max-height: 100px; /* Reduce la altura del encabezado */
+        max-height: 180px; /* Reduce la altura del encabezado */
         width: 100%;
         object-fit: cover;
     }
@@ -52,7 +57,7 @@ body {
     }
 
     .cookie-img {
-        width: 70%; /* La imagen ocupa todo el contenedor */
+        width: 100%; /* La imagen ocupa todo el contenedor */
         height: auto;
         border-radius: 50%;
         margin: 0 auto;
@@ -71,24 +76,25 @@ body {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        font-size: 8px; /* Reducimos el tamaño de las flechas */
-        padding: 5px;
+        font-size: 20px; /* Reducimos el tamaño de las flechas */
+        padding: 6px 12px; /* Ajustamos el padding para un tamaño más adecuado */
         background-color: rgba(255, 255, 255, 0.5);
         border: none;
         cursor: pointer;
         z-index: 10;
+        border-radius: 50%; /* Redondeamos el fondo de las flechas */
     }
 
     .left {
-        left: -20px; /* Acomoda las flechas */
+        left: 10px; /* Acomoda las flechas */
     }
 
     .right {
-        right: -20px;
+        right: 10px;
     }
 
     .cookie-arrow {
-        width: 8px; /* Reducimos el tamaño de las flechas */
+        width: 20px; /* Ajuste en el tamaño de la flecha */
         height: auto;
     }
 
@@ -124,16 +130,18 @@ body {
     }
 
     .logo-img {
-        max-width: 80px; /* Hacemos el logo aún más pequeño */
+        max-width: 150px; /* Hacemos el logo aún más pequeño */
+        background-color: #ff99cc;
+        padding: 5px; /* Reducimos el padding */
     }
 
     /* Encabezado */
     header {
-        padding: 3px;
+        padding: 5px;
     }
 
     .header-img {
-        max-height: 80px;
+        max-height: 150px;
     }
 
     /* Carrusel */
@@ -142,18 +150,18 @@ body {
     }
 
     .cookie-img {
-        width: 70%;
+        width: 100%;
         height: auto;
     }
 
     /* Flechas del carrusel */
     .carousel-button {
-        font-size: 8px; /* Aumentamos un poco el tamaño de las flechas */
-        padding: 5px;
+        font-size: 18px; /* Aumentamos un poco el tamaño de las flechas */
+        padding: 5px 10px; /* Ajustamos el padding para las flechas */
     }
 
     .cookie-arrow {
-        width: 10px; /* Ajuste en el tamaño de la flecha */
+        width: 20px; /* Ajuste en el tamaño de la flecha */
     }
 
     /* Formulario de contacto */
