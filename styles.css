@@ -1,4 +1,4 @@
-/* Estilos generales */  
+/* Estilos generales */
 body {
     font-family: 'Chewy', cursive;
     text-align: center;
@@ -6,172 +6,7 @@ body {
     color: #5a3e36;
     margin: 0;
     padding: 0;
-}
-
-/* Estilos generales para pantallas pequeñas */
-@media (max-width: 768px) {
-    /* Logo */
-    .logo {
-        font-size: 60px; /* Reduce más el tamaño del logo */
-    }
-
-    .logo-img {
-        max-width: 20px; /* Hacemos el logo aún más pequeño */
-        margin: 0 auto;
-        display: block;
-        background-color: #ff99cc; /* Asegura que el fondo rosa no sobresalga */
-        padding: 10px; /* Controlamos el padding */
-        border-radius: 10px; /* Aseguramos que las esquinas estén redondeadas */
-        box-sizing: border-box; /* Para evitar el desbordamiento */
-    }
-
-    /* Encabezado */
-    header {
-        padding: 10px 5px;
-    }
-
-    .header-img {
-        max-height: 80px; /* Reduce la altura del encabezado */
-        width: 70%;
-        object-fit: cover;
-    }
-
-    /* Carrusel */
-    .carousel {
-        width: 100%;
-        margin: 0 auto;
-        position: relative;
-    }
-
-    .carousel-images {
-        display: flex;
-        justify-content: center;
-        transition: transform 1s ease-in-out;
-    }
-
-    .carousel-item {
-        flex: 0 0 100%; /* Esto asegura que solo se vea una imagen a la vez */
-        text-align: center;
-        margin: 10px;
-        display: inline-block;
-    }
-
-    .cookie-img {
-        width: 60%; /* La imagen ocupa todo el contenedor */
-        height: auto;
-        border-radius: 30%;
-        margin: 0 auto;
-    }
-
-    .cookie-name {
-        font-size: 16px;
-    }
-
-    .cookie-description {
-        font-size: 14px;
-    }
-
-    /* Flechas del carrusel */
-    .carousel-button {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 5px; /* Reducimos el tamaño de las flechas */
-        padding: 2px 6px; /* Ajustamos el padding para un tamaño más adecuado */
-        background-color: rgba(255, 255, 255, 0.5);
-        border: none;
-        cursor: pointer;
-        z-index: 10;
-        border-radius: 50%; /* Redondeamos el fondo de las flechas */
-    }
-
-    .left {
-        left: -80px; /* Acomoda las flechas */
-    }
-
-    .right {
-        right: -80px;
-    }
-
-    .cookie-arrow {
-        width: 5px; /* Ajuste en el tamaño de la flecha */
-        height: auto;
-    }
-
-    /* Formulario de contacto */
-    .contact-container {
-        flex-direction: column; /* Los elementos se apilan en móviles */
-        align-items: center;
-        text-align: center;
-    }
-
-    form {
-        width: 90%;
-    }
-
-    input, textarea {
-        width: 100%;
-    }
-
-    button {
-        width: 100%;
-    }
-
-    .contact-img {
-        width: 120px;
-    }
-}
-
-/* Estilos para pantallas muy pequeñas */
-@media (max-width: 480px) {
-    /* Logo */
-    .logo {
-        font-size: 50px; /* Más pequeño en pantallas muy pequeñas */
-    }
-
-    .logo-img {
-        max-width: 10px; /* Hacemos el logo aún más pequeño */
-        background-color: #ff99cc;
-        padding: 5px; /* Reducimos el padding */
-    }
-
-    /* Encabezado */
-    header {
-        padding: 5px;
-    }
-
-    .header-img {
-        max-height: 150px;
-    }
-
-    /* Carrusel */
-    .carousel-item {
-        flex: 0 0 100%; /* Aseguramos que solo una imagen se vea a la vez */
-    }
-
-    .cookie-img {
-        width: 100%;
-        height: auto;
-    }
-
-    /* Flechas del carrusel */
-    .carousel-button {
-        font-size: 5px; /* Aumentamos un poco el tamaño de las flechas */
-        padding: 2px 5px; /* Ajustamos el padding para las flechas */
-    }
-
-    .cookie-arrow {
-        width: 5px; /* Ajuste en el tamaño de la flecha */
-    }
-
-    /* Formulario de contacto */
-    form {
-        width: 90%;
-    }
-
-    .contact-img {
-        width: 100px;
-    }
+    box-sizing: border-box;
 }
 
 /* Estilo para el logo */
@@ -187,7 +22,7 @@ body {
 
 /* Logo con fondo rosa brillante */
 .logo-img {
-    max-width: 400px; /* Aumento el tamaño del logo */
+    max-width: 30%; /* Se ajusta al 100% del contenedor */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -202,7 +37,7 @@ header {
     padding: 20px;
     color: white;
     text-align: center;
-    margin-bottom: 8px; /* Reducir el espacio entre el logo y el texto */
+    margin-bottom: 8px;
 }
 
 /* Imagen del encabezado */
@@ -218,7 +53,7 @@ header {
     background-image: url('background-su-di-me.jpg');
     background-size: cover;
     background-position: center;
-    color: #5a3e36; /* Color marrón para el texto */
+    color: #5a3e36;
     padding: 8px;
 }
 
@@ -226,7 +61,7 @@ header {
 #cookies {
     text-align: center;
     padding: 40px;
-    background-color: #ffcbe5; /* Rosa bebé para el fondo */
+    background-color: #ffcbe5;
 }
 
 .carousel {
@@ -251,21 +86,19 @@ header {
 }
 
 .cookie-img {
-    width: 250px; /* Tamaño más grande y redondeado de las fotos */
+    width: 250px;
     height: 250px;
-    border-radius: 50%; /* Redondear la imagen */
+    border-radius: 50%;
     display: block;
     margin: 0 auto;
     transition: all 1s ease-in-out;
 }
 
 .cookie-name {
-    display: none; /* Ocultar nombres de cookies por defecto */
+    display: none;
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
-
-    
 }
 
 .cookie-description {
@@ -293,15 +126,15 @@ header {
 }
 
 .left {
-    left: -80px;
+    left: -40px; /* Ajusta para que no tape la imagen */
 }
 
 .right {
-    right: -80px;
+    right: -40px; /* Ajusta para que no tape la imagen */
 }
 
 .cookie-arrow {
-    width: 50px; /* Tamaño de la flecha */
+    width: 50px;
     height: auto;
 }
 
@@ -313,7 +146,7 @@ header {
 
 .contact-container {
     display: flex;
-    justify-content: center; /* Centra el contenido */
+    justify-content: center;
     align-items: center;
     margin-top: 0px;
 }
@@ -354,4 +187,74 @@ button:hover {
     width: 250px;
     height: auto;
     border-radius: 50%;
+}
+
+/* Medias Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 60px; /* Reduce el tamaño del logo */
+    }
+
+    .carousel {
+        width: 90%; /* Aumenta el tamaño del carrusel en pantallas pequeñas */
+    }
+
+    .carousel-item {
+        width: 80%; /* Asegura que las imágenes no se vean demasiado grandes */
+    }
+
+    .cookie-img {
+        width: 200px; /* Ajusta el tamaño de las cookies */
+        height: 200px;
+    }
+
+    .carousel-button {
+        padding: 8px;
+        font-size: 24px; /* Reducción de tamaño de las flechas */
+    }
+
+    .contact-container {
+        flex-direction: column; /* Cambia la dirección del formulario */
+    }
+
+    .contact-image {
+        margin-top: 20px;
+    }
+
+    .contact-img {
+        width: 200px; /* Ajusta el tamaño de la imagen de contacto */
+        height: 200px;
+    }
+
+    /* Ajustes para las flechas del carrusel */
+    .left, .right {
+        left: 0;
+        right: 0;
+        font-size: 24px;
+        padding: 8px;
+    }
+}
+
+/* Medias Queries para dispositivos extra pequeños */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 50px; /* Reducir aún más el tamaño del logo */
+    }
+
+    .carousel-item {
+        width: 90%; /* Ajuste del carrusel */
+    }
+
+    .cookie-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .cookie-name {
+        font-size: 16px; /* Reducir el tamaño del nombre */
+    }
+
+    .cookie-description {
+        font-size: 14px; /* Reducir el tamaño de la descripción */
+    }
 }
