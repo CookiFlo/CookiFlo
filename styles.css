@@ -186,6 +186,7 @@ button:hover {
 /* Estilo para la imagen de contacto */
 .contact-image {
     text-align: left;
+    margin-left: 20px;
 }
 
 .contact-img {
@@ -223,6 +224,20 @@ button:hover {
 
     .carousel-button {
         display: none;
+    }
+
+    /* Ajustes para la imagen de contacto */
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-image {
+        margin-top: 20px;
+    }
+
+    .contact-img {
+        width: 200px;
+        height: 200px;
     }
 }
 
