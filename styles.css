@@ -1,0 +1,191 @@
+/* Estilos generales */  
+body {
+    font-family: 'Chewy', cursive;
+    text-align: center;
+    background-color: #ffe6f2;
+    color: #5a3e36;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el logo */
+.logo {
+    font-size: 120px; /* Aumento el tamaño del logo */
+    font-weight: bold;
+    color: #5a3e36;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Logo con fondo rosa brillante */
+.logo-img {
+    max-width: 400px; /* Aumento el tamaño del logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: #ff99cc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Encabezado */
+header {
+    background-color: #ff99cc;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 8px; /* Reducir el espacio entre el logo y el texto */
+}
+
+/* Imagen del encabezado */
+.header-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Sección "Sobre mí" */
+#about {
+    background-image: url('background-su-di-me.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #5a3e36; /* Color marrón para el texto */
+    padding: 8px;
+}
+
+/* Carrusel de cookies */
+#cookies {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffcbe5; /* Rosa bebé para el fondo */
+}
+
+.carousel {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-images {
+    display: flex;
+    justify-content: center;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item {
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}
+
+.cookie-img {
+    width: 250px; /* Tamaño más grande y redondeado de las fotos */
+    height: 250px;
+    border-radius: 50%; /* Redondear la imagen */
+    display: block;
+    margin: 0 auto;
+    transition: all 1s ease-in-out;
+}
+
+.cookie-name {
+    display: none; /* Ocultar nombres de cookies por defecto */
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+    
+}
+
+.cookie-description {
+    font-size: 16px;
+    color: #5a3e36;
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Estilo de las flechas */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left {
+    left: -80px;
+}
+
+.right {
+    right: -80px;
+}
+
+.cookie-arrow {
+    width: 50px; /* Tamaño de la flecha */
+    height: auto;
+}
+
+/* Sección de contacto */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center; /* Centra el contenido */
+    align-items: center;
+    margin-top: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 80px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ffb6c1;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff66a3;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff3385;
+}
+
+/* Estilo para la imagen de contacto */
+.contact-image {
+    text-align: left;
+}
+
+.contact-img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
