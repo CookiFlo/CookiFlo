@@ -16,7 +16,7 @@ body {
     }
 
     .logo-img {
-        max-width: 180px; /* Hacemos el logo aún más pequeño */
+        max-width: 20px; /* Hacemos el logo aún más pequeño */
         margin: 0 auto;
         display: block;
         background-color: #ff99cc; /* Asegura que el fondo rosa no sobresalga */
@@ -31,8 +31,8 @@ body {
     }
 
     .header-img {
-        max-height: 180px; /* Reduce la altura del encabezado */
-        width: 100%;
+        max-height: 80px; /* Reduce la altura del encabezado */
+        width: 70%;
         object-fit: cover;
     }
 
@@ -57,9 +57,9 @@ body {
     }
 
     .cookie-img {
-        width: 100%; /* La imagen ocupa todo el contenedor */
+        width: 60%; /* La imagen ocupa todo el contenedor */
         height: auto;
-        border-radius: 50%;
+        border-radius: 30%;
         margin: 0 auto;
     }
 
@@ -76,8 +76,8 @@ body {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        font-size: 20px; /* Reducimos el tamaño de las flechas */
-        padding: 6px 12px; /* Ajustamos el padding para un tamaño más adecuado */
+        font-size: 5px; /* Reducimos el tamaño de las flechas */
+        padding: 2px 6px; /* Ajustamos el padding para un tamaño más adecuado */
         background-color: rgba(255, 255, 255, 0.5);
         border: none;
         cursor: pointer;
@@ -86,15 +86,15 @@ body {
     }
 
     .left {
-        left: 10px; /* Acomoda las flechas */
+        left: -80px; /* Acomoda las flechas */
     }
 
     .right {
-        right: 10px;
+        right: -80px;
     }
 
     .cookie-arrow {
-        width: 20px; /* Ajuste en el tamaño de la flecha */
+        width: 5px; /* Ajuste en el tamaño de la flecha */
         height: auto;
     }
 
@@ -118,7 +118,7 @@ body {
     }
 
     .contact-img {
-        width: 180px;
+        width: 120px;
     }
 }
 
@@ -130,7 +130,7 @@ body {
     }
 
     .logo-img {
-        max-width: 150px; /* Hacemos el logo aún más pequeño */
+        max-width: 10px; /* Hacemos el logo aún más pequeño */
         background-color: #ff99cc;
         padding: 5px; /* Reducimos el padding */
     }
@@ -156,12 +156,12 @@ body {
 
     /* Flechas del carrusel */
     .carousel-button {
-        font-size: 18px; /* Aumentamos un poco el tamaño de las flechas */
-        padding: 5px 10px; /* Ajustamos el padding para las flechas */
+        font-size: 5px; /* Aumentamos un poco el tamaño de las flechas */
+        padding: 2px 5px; /* Ajustamos el padding para las flechas */
     }
 
     .cookie-arrow {
-        width: 20px; /* Ajuste en el tamaño de la flecha */
+        width: 5px; /* Ajuste en el tamaño de la flecha */
     }
 
     /* Formulario de contacto */
@@ -170,7 +170,7 @@ body {
     }
 
     .contact-img {
-        width: 150px;
+        width: 100px;
     }
 }
 
