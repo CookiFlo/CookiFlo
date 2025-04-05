@@ -8,6 +8,126 @@ body {
     padding: 0;
 }
 
+/* Estilos generales para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Logotipo */
+    .logo {
+        font-size: 90px; /* Reduce el tamaño del logo */
+    }
+
+    .logo-img {
+        max-width: 250px; /* Reduce el tamaño del logo */
+    }
+
+    /* Encabezado */
+    header {
+        padding: 10px;
+    }
+
+    /* Carrusel */
+    .carousel {
+        width: 90%; /* Carrusel más pequeño en pantallas pequeñas */
+    }
+
+    .carousel-images {
+        flex-direction: column; /* Las imágenes del carrusel se alinearán verticalmente */
+    }
+
+    .carousel-item {
+        margin: 10px 0; /* Añade espacio vertical entre las imágenes */
+    }
+
+    .cookie-img {
+        width: 200px; /* Reduces el tamaño de las cookies */
+        height: 200px;
+    }
+
+    /* Sección de contacto */
+    .contact-container {
+        flex-direction: column; /* Los elementos del formulario y la foto se apilarán en pantallas pequeñas */
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-image {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contact-img {
+        width: 200px; /* Reduces el tamaño de la foto */
+    }
+
+    form {
+        width: 90%; /* Formulario más pequeño */
+        margin: 0 auto;
+    }
+
+    input, textarea {
+        width: 100%; /* Los campos de entrada se ajustan al 100% de la pantalla */
+    }
+
+    button {
+        width: 100%; /* El botón ocupa todo el ancho disponible */
+    }
+}
+
+/* Estilos para pantallas aún más pequeñas, como los teléfonos móviles */
+@media (max-width: 480px) {
+    /* Ajustes de logo */
+    .logo {
+        font-size: 70px;
+    }
+
+    .logo-img {
+        max-width: 200px;
+    }
+
+    /* Ajustes para el encabezado */
+    header {
+        padding: 10px 5px;
+    }
+
+    .header-img {
+        max-height: 150px; /* Reducir la altura de la imagen en dispositivos más pequeños */
+    }
+
+    /* Carrusel en pantallas muy pequeñas */
+    .carousel {
+        width: 100%;
+    }
+
+    .carousel-item {
+        margin: 5px 0;
+    }
+
+    .cookie-img {
+        width: 150px; /* Tamaño aún más pequeño para la imagen */
+        height: 150px;
+    }
+
+    .cookie-name {
+        font-size: 16px;
+    }
+
+    .cookie-description {
+        font-size: 14px;
+    }
+
+    /* Formulario de contacto */
+    form {
+        width: 90%;
+    }
+
+    .contact-img {
+        width: 150px;
+    }
+
+    button {
+        padding: 12px;
+    }
+}
+
 /* Estilo para el logo */
 .logo {
     font-size: 120px; /* Aumento el tamaño del logo */
