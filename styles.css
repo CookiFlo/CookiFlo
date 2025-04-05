@@ -198,24 +198,25 @@ button:hover {
 /* Medias Queries para dispositivos móviles */
 @media (max-width: 768px) {
     .logo {
-        font-size: 60px;
+        font-size: 80px; /* Aumenté el tamaño del logo */
     }
 
     .carousel {
-        display: none;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .carousel-item {
-        width: 90%;
+        width: 100%; /* Ajuste para que ocupe todo el ancho */
     }
 
     .cookie-img {
-        width: 200px;
-        height: 200px;
+        width: 150px; /* Reduje el tamaño de las cookies en el móvil */
+        height: 150px;
     }
 
     .cookie-name {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .cookie-description {
@@ -223,7 +224,8 @@ button:hover {
     }
 
     .carousel-button {
-        display: none;
+        display: block;
+        font-size: 24px; /* Tamaño adecuado de las flechas en móviles */
     }
 
     /* Ajustes para la imagen de contacto */
@@ -236,28 +238,24 @@ button:hover {
     }
 
     .contact-img {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px; /* Ajusté el tamaño de la imagen en móviles */
     }
 }
 
 /* Medias Queries para dispositivos extra pequeños */
 @media (max-width: 480px) {
     .logo {
-        font-size: 50px;
-    }
-
-    .carousel-item {
-        width: 90%;
+        font-size: 60px;
     }
 
     .carousel-button {
-        font-size: 16px;
-        padding: 5px;
+        font-size: 18px;
+        padding: 6px;
     }
 
     .cookie-img {
-        width: 180px;
-        height: 180px;
+        width: 130px;
+        height: 130px;
     }
 }
